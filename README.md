@@ -3,10 +3,10 @@
 ## Philosophy & Architecture
 This API serves as a crucial middleware layer between cloud-based Lambda functions and front-end web applications in the real estate domain. It follows a microservices architecture pattern, acting as an orchestration layer that:
 
-1. **Data Bridge**: Efficiently channels data between AWS Lambda functions and client applications, ensuring smooth data flow while maintaining separation of concerns.
+1. **Data Bridge**: Efficiently channels data between AWS Lambda function and client application, ensuring smooth data flow while maintaining separation of concerns.
 2. **State Management**: Maintains application state and handles data persistence through a SQLite database, providing reliable storage for property listings and location data.
-3. **Service Integration**: Acts as a unified backend interface, abstracting the complexity of multiple service interactions from the frontend applications.
-4. **Data Validation**: Implements robust validation logic to ensure data integrity before it reaches the database or external services.
+3. **Service Integration**: Acts as a unified backend interface, abstracting the complexity of multiple service interactions from the frontend application.
+4. **Data Validation**: Implements robust validation logic to ensure data integrity before it reaches the database 
 
 The API is designed with RESTful principles, providing predictable endpoints that web applications can consume to perform CRUD operations on real estate listings and location data. It serves as the backbone for the entire real estate platform, handling everything from data persistence to service coordination.
 
